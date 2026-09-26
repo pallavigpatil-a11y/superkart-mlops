@@ -1,0 +1,17 @@
+{
+  "model_type": "RandomForestRegressor",
+  "target": "Product_Store_Sales_Total",
+  "best_params": {
+    "model__n_estimators": 250,
+    "model__min_samples_leaf": 2,
+    "model__max_features": 0.8,
+    "model__max_depth": 12
+  },
+  "test_metrics": {
+    "MAE": 109.87851889485975,
+    "RMSE": 275.1181914302015,
+    "R2": 0.933664598638874
+  },
+  "training_rows": 7010,
+  "testing_rows": 1753
+}
