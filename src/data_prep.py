@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 
 os.makedirs("data", exist_ok=True)
 
-SOURCE_FILE = "data/superkart_raw.csv"
+SOURCE_FILE = "data/SuperKart.csv"
 
 print("Loading:", SOURCE_FILE)
 
